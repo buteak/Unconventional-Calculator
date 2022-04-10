@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.header{
+    background-color: darkblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.header h2{
+    color: white;
+}
+input{
+    display: block;
+    margin: 5px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    padding: 5px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+}
+.firstElement{
+    outline: 1px solid black;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondElement{
+    text-align: center;
+    margin: 10px;
+}
